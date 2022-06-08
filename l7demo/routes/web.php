@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 聯繫畫面
+Route::get('/contact', function () {
+    return view('contact');
+});
